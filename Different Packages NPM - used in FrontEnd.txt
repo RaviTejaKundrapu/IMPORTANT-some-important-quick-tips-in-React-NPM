@@ -1,0 +1,33 @@
+import {formatDistanceToNow} from 'date-fns'
+
+console.log(formatDistanceToNow(new Date())) // less than a minute
+-----------------------------------------------------------------------------------------------------------
+import {format} from 'date-fns'
+
+console.log(format(new Date(2021, 19, 07), 'dd MMMM yyyy, EEEE')) // 19 July 2021, Monday
+-----------------------------------------------------------------------------------------------------------
+// display different items order in list every time
+
+emojisList = [
+  {
+    id: 0,
+    emojiName: 'Face with stuck out tongue',
+    emojiUrl:
+      'https://assets.ccbp.in/frontend/react-js/face-with-stuck-out-tongue-img.png',
+  },
+  {
+    id: 1,
+    emojiName: 'Face with head bandage',
+    emojiUrl:
+      'https://assets.ccbp.in/frontend/react-js/face-with-head-bandage-img.png',
+  }]
+
+
+ shuffledEmojisList = () => {
+    const {emojisList} = this.props
+    return emojisList.sort(() => Math.random() - 0.5)
+  }
+
+// to get a shuffle list to use then -> this.shuffledEmojisList().map(codeForListsUiRendering/Passing)
+
+-----------------------------------------------------------------------------------------------------------
