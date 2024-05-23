@@ -35,6 +35,6 @@ this is not a npm package this is just a method to display 12 hours time
 if need 24 hours then just use toLocaleTimeString()
 use full when displaying in UI
 
-**new Date().toLocaleTimeString('en-US', {hour12: true})**
+new Date().toLocaleTimeString('en-US', {hour12: true})
 
 -----------------------------------------------------------------------------------------------------------
