@@ -8,6 +8,9 @@ console.log(formatDistanceToNow(new Date()))        // less than a minute
 import {format} from 'date-fns'
 
 console.log(format(new Date(2021, 19, 07), 'dd MMMM yyyy, EEEE')) // 19 July 2021, Monday
+
+//used at :  Working with Lists > Coding Practice 16 > Appointments App
+
 -----------------------------------------------------------------------------------------------------------
 // display different items order in list every time
 
