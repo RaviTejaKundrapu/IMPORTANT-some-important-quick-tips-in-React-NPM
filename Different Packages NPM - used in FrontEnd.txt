@@ -14,6 +14,11 @@ console.log(format(new Date(2021, 19, 07), 'dd MMMM yyyy, EEEE')) // 19 July 202
 -----------------------------------------------------------------------------------------------------------
 // display different items order in list every time
 
+1. firstly understanding some simple random code in below
+let arr = [1, 2, 3, 4];
+console.log(arr.sort(() => Math.random() - 0.5));
+
+// exercise code working really below now
 emojisList = [
   {
     id: 0,
