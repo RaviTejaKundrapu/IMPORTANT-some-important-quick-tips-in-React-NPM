@@ -1,5 +1,5 @@
 .shade {
-  /* important - it will share some shadow inner effect */
+  /* important - it will share some shadow inner effect Coding Practice 12*/
   opacity: 0.5;
 }
 ----------------------------------------------------------------------------------------------------------
