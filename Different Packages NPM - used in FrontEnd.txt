@@ -3,7 +3,7 @@
   opacity: 0.5;
 }
 ----------------------------------------------------------------------------------------------------------
-const tossResult = Math.floor(Math.random() * 2)
+const tossResult = Math.floor(Math.random() * 2) // generate 1 or 0
 ----------------------------------------------------------------------------------------------------------
 
 import {formatDistanceToNow} from 'date-fns'
