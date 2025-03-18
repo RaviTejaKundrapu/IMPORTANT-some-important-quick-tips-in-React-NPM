@@ -1,3 +1,9 @@
+.shade {
+  /* important - it will share some shadow inner effect */
+  opacity: 0.5;
+}
+----------------------------------------------------------------------------------------------------------
+
 import {formatDistanceToNow} from 'date-fns'
 
 console.log(formatDistanceToNow(new Date()))        // less than a minute
