@@ -2,24 +2,28 @@
   /* important - it will share some shadow inner effect Coding Practice 12*/
   opacity: 0.5;
 }
-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 const tossResult = Math.floor(Math.random() * 2) // generate 1 or 0
-----------------------------------------------------------------------------------------------------------
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+topic:1
+========
 import {formatDistanceToNow} from 'date-fns'
-
 console.log(formatDistanceToNow(new Date()))        // less than a minute
+
+topic:2
+========
+const randomIndex = Math.floor(Math.random() * initialContainerBackgroundClassNamesthisisListwithstylenames.length)
 
 //used at :  Working with Lists > Coding Practice 16 > Comments App
 
------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 import {format} from 'date-fns'
 
 console.log(format(new Date(2021, 19, 07), 'dd MMMM yyyy, EEEE')) // 19 July 2021, Monday
 
 //used at :  Working with Lists > Coding Practice 16 > Appointments App
 
------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 // display different items order in list every time
 
 1. firstly understanding some simple random code in below
@@ -49,11 +53,11 @@ emojisList = [
 
 // to get a shuffle list to use then -> this.shuffledEmojisList().map(codeForListsUiRendering/Passing)
 
------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 this is not a npm package this is just a method to display 12 hours time 
 if need 24 hours then just use toLocaleTimeString()
 use full when displaying in UI
 
 new Date().toLocaleTimeString('en-US', {hour12: true})
 
------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
