@@ -18,6 +18,7 @@ console.log(formatDistanceToNow(new Date()))        // less than a minute
 topic:2
 ========
 const randomIndex = Math.floor(Math.random() * initialContainerBackgroundClassNamesthisisListwithstylenames.length)
+const randomClassName = initialContainerBackgroundClassNamesthisisListwithstylenames[randomIndex]
 
 //used at :  Working with Lists > Coding Practice 16 > Comments App
 
