@@ -69,3 +69,24 @@ use full when displaying in UI
 new Date().toLocaleTimeString('en-US', {hour12: true})
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+1.1 install uuid:         npm install uuid
+1.2 Importing of UUID:    import {v4 as uuidv4} from 'uuid'
+1.3 using:                 
+{
+    id: uuidv4(),
+    name: 'Ram',
+    mobileNo: 9999988888,
+    isFavorite: false,
+  }
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+React   Routers:
+----------------
+
+1.1 install react router :           npm install react-router-dom --save
+1.2 import { BrowserRouter,Link,Route,Switch,} from "react-router-dom" // what every is want we use that and switvh is changed to routes tag in Latest version
+
+2.1 npm install react-loader-spinner --save
+import Loader from "react-loader-spinner";
+2.2 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+2.3 at render(){return(          <Loader type="TailSpin" color="#00BFFF" height={50} width={50} /> )}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
