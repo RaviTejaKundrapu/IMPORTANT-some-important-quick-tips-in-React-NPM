@@ -90,3 +90,29 @@ import Loader from "react-loader-spinner";
 2.2 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 2.3 at render(){return(          <Loader type="TailSpin" color="#00BFFF" height={50} width={50} /> )}
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Auth unit part 1:
+-----------------
+
+npm install js-cookie --save
+
+js-cookie methods are:
+
+Cookies.set()- It is used to set the cookie
+Cookies.get()- It is used to get the cookie
+Cookies.remove()- It is used to remove the cookie
+
+Cookies.set('CookieName', 'CookieValue', {expires: DAYS});
+Cookies.get('CookieName');
+Cookies.remove('CookieName');
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Auth unit part 2:
+------------------
+npm install react-icons
+
+import { BsFilterRight } from "react-icons/bs";
+
+<BsFilterRight className="cssmanualcolorbgetc.."/>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
